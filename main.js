@@ -20,3 +20,11 @@ cuadroTres.onclick = function(){
 cuadroCuatro.onclick = function(){
     console.log("Apretaste el D! (verde)")
 }
+
+const botonEmpezar = document.querySelector("#boton")
+const estadoJuego = document.querySelector("#estadojuego")
+
+botonEmpezar.onclick = function(){
+    estadoJuego.className = "alert alert-success"
+    estadoJuego.innerText = "Juego en progreso!"
+}
