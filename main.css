@@ -21,3 +21,7 @@
 .oculto{
     display: none;
 }
+.cuadro{
+    opacity: 0.5;
+    transition: opacity 500ms;
+}
